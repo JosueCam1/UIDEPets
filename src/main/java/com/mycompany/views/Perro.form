@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="autoscrolls" type="boolean" value="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1020, 344]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Fondo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Fondo" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Fondo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1020, 344]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="300" pref="300" max="-2" attributes="0"/>
+                  <Component id="Content" max="32767" attributes="0"/>
+              </Group>
+              <Component id="Menu" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="Content" alignment="0" max="32767" attributes="0"/>
+              <Component id="Menu" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Menu">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="48" green="0" red="91" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Jugetes" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Accesorios" alignment="0" pref="299" max="32767" attributes="0"/>
+                          <Component id="Higiene" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Habitat" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Comida" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="Comida" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Habitat" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="Higiene" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Accesorios" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Jugetes" min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace pref="47" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="Higiene">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="0" red="91" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Higiene "/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HigieneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Comida">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="0" red="91" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Comida"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ComidaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Accesorios">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="0" red="91" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Accesorios"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AccesoriosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Jugetes">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="0" red="91" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Juguetes"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JugetesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Habitat">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="48" green="0" red="91" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="H&#xe1;bitat"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HabitatActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Content">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="720" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="344" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="Principal">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ProCan2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="117" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ProCan3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="BuenCan1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="BuenCan2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DogChow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DogChow2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ProCan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="BuenCan" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="BuenCan3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DogChow1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Adultos3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DogChow3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ProCan1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Cachorros5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Peso9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Carrito9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Dinero9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="91" pref="91" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="BuenCan" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="BuenCan1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" pref="266" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="BuenCan3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="BuenCan2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="DogChow1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito5" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="DogChow" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito4" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="DogChow3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso7" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero7" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="DogChow2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito6" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="ProCan1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso9" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero9" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito9" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="ProCan" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Cachorros4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso8" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero8" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito8" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="ProCan3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso11" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero11" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito11" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="ProCan2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Adultos5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Peso10" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Dinero10" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Carrito10" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/BuenCanAdulto.jpg"/>
+                        </Property>
+                        <Property name="verticalAlignment" type="int" value="1"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel3">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/BuenCanCachorro_1.jpg"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel2">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/DogChowAdulto.jpg"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel4">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/DogChowCachorro.jpg"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel5">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/ProcanCachorro.png"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel7">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Comida de Perro/ProcanAdulto.png.jpg"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CarritoActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito1ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito2ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito3ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito4ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito5ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito6ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito7ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito8ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito9ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito10ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="Carrito11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Agregar al Carrito"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carrito11ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="8 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="2 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="2 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="15 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="7,5 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="2 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="8 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="4 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="15 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="2 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="30 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Peso11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="2 KG"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="BuenCan">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="BUEN CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="BuenCan1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="BUEN CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="BuenCan2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="BUEN CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="BuenCan3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="BUEN CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="DogChow">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="DOG CHOW"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="DogChow1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="DOG CHOW"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="DogChow2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="DOG CHOW"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="DogChow3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="DOG CHOW"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ProCan">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="PRO-CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ProCan1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="PRO-CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ProCan2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="PRO-CAN"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="ProCan3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Pro-Can"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Adultos5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Adultos "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros  "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Cachorros5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Cachorros"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="14,78 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="4,17 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero2">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="30.70 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero3">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="4,95 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero4">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="40,12 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero5">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="12,05 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero7">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="21,77 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero6">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="39,91 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero8">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="31,96 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero9">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="5,28 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero10">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="45,63 $"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Dinero11">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="14,12 $"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

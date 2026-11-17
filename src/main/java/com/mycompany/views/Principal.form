@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1020, 344]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1020, 344]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel13" max="32767" attributes="0"/>
+                  <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Linea9" pref="1005" max="32767" attributes="0"/>
+                      <Component id="Linea3" max="32767" attributes="0"/>
+                      <Component id="Linea1" max="32767" attributes="0"/>
+                      <Component id="Linea6" max="32767" attributes="0"/>
+                      <Component id="Linea2" max="32767" attributes="0"/>
+                      <Component id="Linea7" max="32767" attributes="0"/>
+                      <Component id="Bienvenida" max="32767" attributes="0"/>
+                      <Component id="Pregunta" max="32767" attributes="0"/>
+                      <Component id="Linea8" max="32767" attributes="0"/>
+                      <Component id="Linea4" max="32767" attributes="0"/>
+                      <Component id="Linea5" max="32767" attributes="0"/>
+                      <Component id="Linea10" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+                          <Component id="Linea9" pref="22" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="Linea3" max="32767" attributes="0"/>
+                          <EmptySpace min="160" pref="160" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="Linea1" max="32767" attributes="0"/>
+                          <EmptySpace min="200" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                          <Component id="Linea6" max="32767" attributes="0"/>
+                          <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="jLabel13" max="32767" attributes="0"/>
+                          <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="Linea2" max="32767" attributes="0"/>
+                          <EmptySpace min="180" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+                          <Component id="Linea7" max="32767" attributes="0"/>
+                          <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Bienvenida" max="32767" attributes="0"/>
+                          <EmptySpace min="230" pref="230" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                          <Component id="Pregunta" max="32767" attributes="0"/>
+                          <EmptySpace min="90" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                          <Component id="Linea8" max="32767" attributes="0"/>
+                          <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                          <Component id="Linea4" max="32767" attributes="0"/>
+                          <EmptySpace min="140" pref="140" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="Linea5" max="32767" attributes="0"/>
+                          <EmptySpace min="120" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Component id="Linea10" pref="22" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="11"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Principal.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Bienvenida">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bienvenido a UIDE Pets"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="\ud83d\udc3e Donde el amor por las mascotas se encuentra con la comodidad de comprar en l&#xed;nea! \ud83d\udc3e" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&quot;Todo para ellos, todo para ti. UIDEpets, tu mejor aliado en cuidado de mascotas.&quot;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="En UIDEpets sabemos que tus peludos amigos son parte de tu familia, y por eso nos dedicamos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="a ofrecerte los mejores productos, desde alimentos premium hasta juguetes, "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="accesorios y todo lo que necesitas para su bienestar."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Pregunta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xbf;Por qu&#xe9; elegirnos?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Productos de calidad: Seleccionamos las marcas m&#xe1;s confiables y saludables."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Env&#xed;os r&#xe1;pidos y seguros: Recibe tus pedidos en la puerta de tu hogar sin complicaciones."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Asesoramiento experto: Nuestro equipo te ayuda a tomar las mejores decisiones para tu mascota."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xa1;Haz tus compras en UIDEpets y dale a tu mascota el cuidado que se merece, con la facilidad de un clic! \ud83d\uded2\ud83d\udc36\ud83d\udc31\ud83d\udc30" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Linea10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Porque en UIDEpets&#x2026; &#xa1;tu felicidad es su felicidad! \ud83d\udc15&#x2764;&#xfe0f;" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
